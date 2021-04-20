@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face{ 
+    font-family:"Moontime";
+    src:url(fonts/MoonTime-Regular.ttf);
+}
+@font-face{ 
+    font-family:"Cinzel";
+    src:url(fonts/Cinzel-VariableFont_wght.ttf);
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+
+.nav-container{
+ 
+    width: 100%;
+    background: #000000;
+    height: 110px;  
+    position: fixed;
+    top: 0;
+    z-index: 100;
+      
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    
+}
+ nav{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     
+ }
+nav ul{
+    display: flex;
+    top: 60px;
+
+}
+.nav-items li{
+    list-style: none;
+    color: #E5E5E5;
+    margin-right: 60px;
+    
+
+}
+.nav-items  li:nth-last-of-type(1){
+    margin: 0px;
+}
+.nav-items li a{
+    font-family: "Roboto",sans-serif;
+    color:#E5E5E5;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav-btn{
+    border:1px solid #E5E5E5;
+    height: 52px;
+    width: 144px;
+    padding:10px
+}
+.header-container{
+    background: #000000;
+    height: calc(100vh - 110px);
+    display: flex;
+    margin-top: 110px;
+    justify-content: center;
+}
+#particles-js {
+	height: calc(100vh - 110px) ;
+	background: url(images/winter.svg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-attachment: fixed;
+    
+}
+.particles-js a{
+    text-decoration: none;
+    border: 2px solid white;
+    height: 45px;
+    color: #ffffff;
+    width: 100px;
+    position: relative;
+    margin-top: 370px;
+    padding: 10px;
+    font-family: "sans-serif",;
+}
+.particles-js-canvas-el {
+	position: absolute;
+    padding: 55px 0;
+}
+.header-container2{
+    background: #ffffff;
+    width: 100%;
+    height: calc(100vh - 110px);
+    display: flex; 
+}
+
+.wrapper-about{
+    max-width: 731px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.wrapper-about h3{
+    font-family: "Cinzel";
+    font-weight:200 ;
+    font-size: 100px;
+    margin-top: 131px;
+    text-align: center;
+    
+}
+.wrapper-about h2{
+    font-family: "Moontime";
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 380px;
+    font-size: 90px;
+    font-weight: 200;
+
+}
+.wrapper-about p{
+    font-family: "sans-serif";
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.container3{
+    background: #ffffff;
+    width: 100%;
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction:inline-block; 
+}
+.profile-about{
+    width: 70%;
+    height: 100%;
+    
+}
+.wrapper-2{
+    max-width: 585px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.profile-image{
+    width: 30%;
+    height: 100%;
+    
+}
+.profile-about h3{
+    font-family: "Cinzel";
+    font-weight:200 ;
+    font-size: 100px;
+    margin-top: 80px;
+    text-align: center;
+}
+.profile-about h2{
+    font-family: "Moontime";
+    position: relative;
+    margin-top: -50px;
+    margin-left: 350px;
+    font-size: 90px;
+    font-weight: 200;
+}
+.profile-about p{
+    font-family: "sans-serif";
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    width: 565px;
+    text-align: justify;
+    
+}
+.profile-image{
+    background: url(images/profile.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
